@@ -54,14 +54,15 @@
         <a href="http://google.com.br" target="_blank" title="site do google">Teste de link</a>
         <p>Estamos no curso de HTML e queremos <a href="http://google.com.br" title="aprender mais pesquisando">aprender mais</a></p>
         <h2>Tabelas</h2>
-        <table>
+        <table summary="Tabela sobre a quantidade de titulos dos 2 principais times do RJ e SP ">
+            <caption>Tabela 1: informação sobre times de futebol do RJ e SP</caption>
             <thead>
                 <tr>
-                    <th>Time de futebol</th>
-                    <th>Titulos Estaduais</th>
-                    <th>Titulos Nacionais</th>
-                    <th>Titulos Internacionais</th>
-                    <th>Total de Títulos</th>
+                    <th abbr="Time" scope="col">Time de futebol</th>
+                    <th abbr="Estaduais" scope="col">Titulos Estaduais</th>
+                    <th abbr="Nacionais" scope="col">Titulos Nacionais</th>
+                    <th abbr="Internacionais"scope="col">Titulos Internacionais</th>
+                    <th abbr="Total" scope="col">Total de Títulos</th>
                 </tr>
             </thead>
             <tbody>
