@@ -25,10 +25,18 @@
             <li><a href="#" role="menuitem">Conteúdo</a></li>
         </ul>
     </nav>
-    <p id="description-academycurso">Estou participando do Hering Coders, que esta sendo todo ministrado pelo curso Gama Academy. Uma imerssão em desenvolvimento de sites e softwares, pontuando efetivamente características como soft-skils e hard-skils. Pretendo me classificar para todas as fases. E dessa forma, conseguir iniciar uma carreira profissional por profissão, não mais por necessidade.</p>
+    <p id="texto1">Estou participando do Hering Coders, que esta sendo todo ministrado pelo curso Gama Academy. Uma imerssão em desenvolvimento de sites e softwares, pontuando efetivamente características como soft-skils e hard-skils. Pretendo me classificar para todas as fases. E dessa forma, conseguir iniciar uma carreira profissional por profissão, não mais por necessidade.</p>
+
+    <button id="botao1" onclick="atualizacao()">Atualização de texto</button>
+
     <script type="text/javascript">
-    document.getElementById("description-academycurso").style.textAlign = "center";
-    document.getElementById("description-academycurso").style.color = "blue";
+   
+        function atualizacao(){
+
+        var texto1 = document.getElementById("texto1");
+
+        texto1.innerText = "ME desenvolvendo muito!";
+        }
     </script>
     <main role="main">
         <h1>Video motivacional</h1>
