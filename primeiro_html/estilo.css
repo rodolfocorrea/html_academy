@@ -2,6 +2,10 @@
 body{
     background-color: darkkhaki;
 }
+span[paragrafo]{
+    font-size: xx-large;
+}
+
 #texto1{
     border: solid 2px rgb(119, 113, 113);
     text-align: center;
@@ -70,3 +74,7 @@ span[motivacao]{
     width: 300px;
     height: 300px;
 }
+table, th, td {
+    border: 1px solid black;
+    border-spacing: 5px;
+  }
