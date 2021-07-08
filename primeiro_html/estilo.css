@@ -18,20 +18,55 @@ body{
     color: rgb(209, 79, 144);
 }
 
-.motivacional{
-    
-    border: solid 2px rgb(119, 113, 113);
+#motivacional{
     text-align: center;
+    width: 1300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.texto-motivacional{
+    margin: 40px;
+    text-align: center;
+    background-color: blanchedalmond;
+    height: 100px;
+}
+.motivacional1{
+    border: solid 1px black;
+    width: 400px;
+    height: 220px;
 }
 #listas{
     border: solid 2px rgb(119, 113, 113);
     margin-top: 20px;
 }
-.tabela1{
+span[motivacao]{
+    font-size: 40px;
+    font-style: italic;
+}
+.lista1{
     width: 15%;
     margin: auto;
     text-align: center;
 }
 .lista-definicao{
        text-align: center;
+}
+#lives{
+    text-align: center;
+    width: 1300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.texto-live{
+    margin: 40px;
+    text-align: center;
+    background-color: blanchedalmond;
+    height: 100px;
+}
+.tres-live{
+    border: solid 1px black;
+    width: 300px;
+    height: 300px;
 }
