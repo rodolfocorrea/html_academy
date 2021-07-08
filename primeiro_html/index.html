@@ -10,13 +10,14 @@
     <link rel="stylesheet" type="text/css" href="estilo.css">
    <script type="text/javascript" src="script.js">    
    </script>
-   
-   
+     
 </head>
 <body>
-    <header role="banner">
-        <img src="foto_principal_gama_1.png" alt="Logo da empresa" title="Logo da empresa" aria-labelledby="description-academycurso">
-    </header>    
+    <div class="imagem">
+        <header role="banner">
+            <img src="foto_principal_gama_1.png" alt="Logo da empresa" title="Logo da empresa" aria-labelledby="description-academycurso">
+        </header>
+    </div>   
     <nav role="navigation" aria-level="main navigation">
         <ul role="menu">
             <li><a href="#" role="menuitem">Home</a></li>
@@ -27,166 +28,164 @@
     </nav>
     <p id="texto1">Estou participando do Hering Coders, que esta sendo todo ministrado pelo curso Gama Academy. Uma imerssão em desenvolvimento de sites e softwares, pontuando efetivamente características como soft-skils e hard-skils. Pretendo me classificar para todas as fases. E dessa forma, conseguir iniciar uma carreira profissional por profissão, não mais por necessidade.</p>
 
-    <button id="botao1" onclick="atualizacao()">Atualização de texto</button>
-
-    <script type="text/javascript">
-   
-        function atualizacao(){
-
-        var texto1 = document.getElementById("texto1");
-
-        texto1.innerText = "ME desenvolvendo muito!";
-        }
-    </script>
-    <main role="main">
-        <h1>Video motivacional</h1>
-        <p>Vamos colocar um vídeo motivacional do <strong>Ayrton Senna</strong> </h2>
-       <p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/aoxJbFtoo_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-       </p>
-        <h2>Lista ordenada</h2>
-        <ol start="7" type="I">
-            <li>Exemplo 1</li>
-            <li>Exemplo 2</li>
-            <li>Exemplo 3</li>
-            <li>Exemplo 4</li>
-        </ol>
-        <h2>Lista desordenada</h2>
-        <ul type="circle">
-            <li>Exemplo 1</li>
-            <li>Exemplo 2</li>
-            <li>Exemplo 3</li>
-        </ul>
-        <h2>Lista de definição</h2>
-        <dl>
-            <dt>Motivação</dt>
-            <dd>Motivação refere-se em psicologia, em etologia e em outras ciências humanas à condição do organismo que influencia a direção do comportamento. Por outras palavras, é o impulso interno que leva à ação. Assim a principal questão da psicologia da motivação é "o porquê do indivíduo se comportar de determinada maneira</dd>
-        </dl>
-        <h2>Links</h2>
-        <p>Abaixo, colocamos alguns links como exemplo.</p>
-        <a href="http://google.com.br" target="_blank" title="site do google">Teste de link</a>
-        <p>Estamos no curso de HTML e queremos <a href="http://google.com.br" title="aprender mais pesquisando">aprender mais</a></p>
-        <h2>Tabelas</h2>
-        <table summary="Tabela sobre a quantidade de titulos dos 2 principais times do RJ e SP ">
-            <caption>Tabela 1: informação sobre times de futebol do RJ e SP</caption>
-            <thead>
-                <tr>
-                    <th abbr="Time" scope="col">Time de futebol</th>
-                    <th abbr="Estaduais" scope="col">Titulos Estaduais</th>
-                    <th abbr="Nacionais" scope="col">Titulos Nacionais</th>
-                    <th abbr="Internacionais"scope="col">Titulos Internacionais</th>
-                    <th abbr="Total" scope="col">Total de Títulos</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>Flamengo</th>
-                    <th>37</th>
-                    <th>14</th>
-                    <th>6</th>
-                    <th>57</th>
-                </tr>
-                <tr>
-                    <th>Fluminense</th>
-                    <th>31</th>
-                    <th>6</th>
-                    <th>8</th>
-                    <th>45</th>
-                </tr>
-                <tr>
-                    <th>Corinthias</th>
-                    <th>31</th>
-                    <th>12</th>
-                    <th>4</th>
-                    <th>47</th>
-                </tr>
-                <tr>
-                    <th>Palmeiras</th>
-                    <th>25</th>
-                    <th>17</th>
-                    <th>4</th>
-                    <th>46</th>
-                </tr>            
-            </tbody>
-            <tfoot>
-                <tr>
-                    <th>Fim de pesquisa</th>
-                    
-                </tr>
-            </tfoot>
-        </table>
-        <form action="#" method="post">
-            <fieldset>
-                <legend>Dados Cadastrais</legend>
-                <label for="campo1">Nome:</label>
-                <input type="text" name="nome" id="campo1">
-                <label for="campo2">Data de nascimento:</label>
-                <input type="date" name="Idade" id="campo2">
-                <label for="campo3">Estado</label>
-                <select name="estado" id="campo3">
-                    <option value="01">AC</option>
-                    <option value="02">AL</option>
-                    <option value="03">AM</option>
-                    <option value="04">AP</option>
-                    <option value="05">BA</option>
-                    <option value="06">CE</option>
-                    <option value="07">DF</option>
-                    <option value="08">ES</option>
-                    <option value="09">GO</option>
-                    <option value="10">MA</option>
-                    <option value="11">MS</option>
-                    <option value="12">MT</option>
-                    <option value="13">MG</option>
-                    <option value="14">PA</option>
-                    <option value="15">PB</option>
-                    <option value="16">PE</option>
-                    <option value="17">PI</option>
-                    <option value="18">PR</option>
-                    <option value="19">RJ</option>
-                    <option value="20">RN</option>
-                    <option value="21">RO</option>
-                    <option value="22">RR</option>
-                    <option value="23">RS</option>
-                    <option value="24">SC</option>
-                    <option value="25">SE</option>
-                    <option value="26">SP</option>
-                    <option value="27">TO</option>
-                </select><br>
-                    <label for="campo4">Orientação Sexual</label>
-                    <select name="sexo" id="campo4">
-                        <option value="01">Masculino</option>
-                        <option value="02">Feminino</option>
-                        <option value="03">Outros</option>
-                    </select>
-                    <label for="campo5">Email:</label>
-                    <input type="email" name="email" id="campo5">
-                    <label for="campo6">Telefone</label>
-                    <input type="tel" name="telefone" id="campo6">
-            </fieldset>
-                       
-            <fieldset>
-                <legend>Time do coração: </legend>
-                <label>Flamengo</label>
-                <input type="radio" name="time">
-                <label>Fluminense</label>
-                <input type="radio" name="time">
-                <label>Vasco</label>
-                <input type="radio" name="time">
-                <label>Bota-fogo</label>
-                <input type="radio" name="time">
-                <label>Palmeiras</label>
-                <input type="radio" name="time">
-                <label>corinthians</label>
-                <input type="radio" name="time">
-                <label>Santos</label>
-                <input type="radio" name="time">
-                <label>São Paulo</label>
-                <input type="radio" name="time">
-            </fieldset>
-            <input type="submit" value="Enviar formulário">
-
-        </form>
-    </main>
+    <div id="principal">
+        <main role="main">
+        
+                <div class="motivacional">
+                    <h1>Video motivacional</h1>
+                            
+                                <p>Vamos colocar um vídeo motivacional do <strong>Ayrton Senna</strong> </h2>
+                               <p>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/aoxJbFtoo_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                               </p>
+                </div>
+            <div class="tabela1">
+                <h2>Lista ordenada</h2>
+                <ol start="7" type="I">
+                    <li>Exemplo 1</li>
+                    <li>Exemplo 2</li>
+                    <li>Exemplo 3</li>
+                    <li>Exemplo 4</li>
+                </ol>
+            </div>
+            <div class="tabela2">
+                <h2>Lista desordenada</h2>
+                <ul type="circle">
+                    <li>Exemplo 1</li>
+                    <li>Exemplo 2</li>
+                    <li>Exemplo 3</li>
+                </ul>
+            </div>
+            <h2>Lista de definição</h2>
+            <dl>
+                <dt>Motivação</dt>
+                <dd>Motivação refere-se em psicologia, em etologia e em outras ciências humanas à condição do organismo que influencia a direção do comportamento. Por outras palavras, é o impulso interno que leva à ação. Assim a principal questão da psicologia da motivação é "o porquê do indivíduo se comportar de determinada maneira</dd>
+            </dl>
+            <h2>Links</h2>
+            <p>Abaixo, colocamos alguns links como exemplo.</p>
+            <a href="http://google.com.br" target="_blank" title="site do google">Teste de link</a>
+            <p>Estamos no curso de HTML e queremos <a href="http://google.com.br" title="aprender mais pesquisando">aprender mais</a></p>
+            <h2>Tabelas</h2>
+            <table summary="Tabela sobre a quantidade de titulos dos 2 principais times do RJ e SP ">
+                <caption>Tabela 1: informação sobre times de futebol do RJ e SP</caption>
+                <thead>
+                    <tr>
+                        <th abbr="Time" scope="col">Time de futebol</th>
+                        <th abbr="Estaduais" scope="col">Titulos Estaduais</th>
+                        <th abbr="Nacionais" scope="col">Titulos Nacionais</th>
+                        <th abbr="Internacionais"scope="col">Titulos Internacionais</th>
+                        <th abbr="Total" scope="col">Total de Títulos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Flamengo</th>
+                        <th>37</th>
+                        <th>14</th>
+                        <th>6</th>
+                        <th>57</th>
+                    </tr>
+                    <tr>
+                        <th>Fluminense</th>
+                        <th>31</th>
+                        <th>6</th>
+                        <th>8</th>
+                        <th>45</th>
+                    </tr>
+                    <tr>
+                        <th>Corinthias</th>
+                        <th>31</th>
+                        <th>12</th>
+                        <th>4</th>
+                        <th>47</th>
+                    </tr>
+                    <tr>
+                        <th>Palmeiras</th>
+                        <th>25</th>
+                        <th>17</th>
+                        <th>4</th>
+                        <th>46</th>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Fim de pesquisa</th>
+        
+                    </tr>
+                </tfoot>
+            </table>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Dados Cadastrais</legend>
+                    <label for="campo1">Nome:</label>
+                    <input type="text" name="nome" id="campo1">
+                    <label for="campo2">Data de nascimento:</label>
+                    <input type="date" name="Idade" id="campo2">
+                    <label for="campo3">Estado</label>
+                    <select name="estado" id="campo3">
+                        <option value="01">AC</option>
+                        <option value="02">AL</option>
+                        <option value="03">AM</option>
+                        <option value="04">AP</option>
+                        <option value="05">BA</option>
+                        <option value="06">CE</option>
+                        <option value="07">DF</option>
+                        <option value="08">ES</option>
+                        <option value="09">GO</option>
+                        <option value="10">MA</option>
+                        <option value="11">MS</option>
+                        <option value="12">MT</option>
+                        <option value="13">MG</option>
+                        <option value="14">PA</option>
+                        <option value="15">PB</option>
+                        <option value="16">PE</option>
+                        <option value="17">PI</option>
+                        <option value="18">PR</option>
+                        <option value="19">RJ</option>
+                        <option value="20">RN</option>
+                        <option value="21">RO</option>
+                        <option value="22">RR</option>
+                        <option value="23">RS</option>
+                        <option value="24">SC</option>
+                        <option value="25">SE</option>
+                        <option value="26">SP</option>
+                        <option value="27">TO</option>
+                    </select><br>
+                        <label for="campo4">Orientação Sexual</label>
+                        <select name="sexo" id="campo4">
+                            <option value="01">Masculino</option>
+                            <option value="02">Feminino</option>
+                            <option value="03">Outros</option>
+                        </select>
+                        <label for="campo5">Email:</label>
+                        <input type="email" name="email" id="campo5">
+                        <label for="campo6">Telefone</label>
+                        <input type="tel" name="telefone" id="campo6">
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Time do coração: </legend>
+                    <label>Flamengo</label>
+                    <input type="radio" name="time">
+                    <label>Fluminense</label>
+                    <input type="radio" name="time">
+                    <label>Vasco</label>
+                    <input type="radio" name="time">
+                    <label>Bota-fogo</label>
+                    <input type="radio" name="time">
+                    <label>Palmeiras</label>
+                    <input type="radio" name="time">
+                    <label>corinthians</label>
+                    <input type="radio" name="time">
+                    <label>Santos</label>
+                    <input type="radio" name="time">
+                    <label>São Paulo</label>
+                    <input type="radio" name="time">
+                </fieldset>
+                <input type="submit" value="Enviar formulário">
+            </form>
+        </main>
+    </div>
     <footer role="contentinfo">
         Site criado por Rodolfo Corrêa, para o curso Academy, Hiring Coders 2021
     </footer>
