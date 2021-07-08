@@ -14,17 +14,24 @@ body{
     text-align: center;
     background-color: rgb(177, 226, 214);
 }
+.menu:hover{
+    color: rgb(209, 79, 144);
+}
 
 .motivacional{
-    border-color: burlywood;
+    
+    border: solid 2px rgb(119, 113, 113);
+    text-align: center;
+}
+#listas{
+    border: solid 2px rgb(119, 113, 113);
+    margin-top: 20px;
 }
 .tabela1{
     width: 15%;
     margin: auto;
     text-align: center;
 }
-.tabela2{
-    width: 15%;
-    margin: auto;
-    text-align: center;
+.lista-definicao{
+       text-align: center;
 }
